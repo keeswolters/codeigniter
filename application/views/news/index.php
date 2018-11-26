@@ -8,6 +8,6 @@
                 <?php echo $news_item['text']; ?>
           </p>
         </div>
-        <p><a href="<?php echo site_url('news/'.$news_item['slug']); ?>">View article</a></p>
+        <p><a href="<?php echo site_url('/news'.'/'.$news_item['slug']); ?>">View article</a></p>
 
 <?php endforeach; ?>
